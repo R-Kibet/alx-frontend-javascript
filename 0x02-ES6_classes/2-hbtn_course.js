@@ -13,7 +13,7 @@ export default class HolbertonCourse {
     return this._length;
   }
 
-  get studnt() {
+  get students() {
     return this._students;
   }
 
@@ -31,7 +31,7 @@ export default class HolbertonCourse {
     this._length = x;
   }
 
-  set studnt(x) {
+  set students(x) {
     x.forEach((element) => {
       if (typeof element !== 'string') {
         throw new TypeError('Students must be an array of strings');
