@@ -16,7 +16,7 @@ export default function getListStudents() {
       id: 5,
       firstname: 'Serena',
       location: 'San Francisco',
-    }
+    },
   ];
 
   return student;
